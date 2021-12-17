@@ -8,10 +8,10 @@ import "../App.css";
 const images = [
   {
     url:
-    "https://raw.githubusercontent.com/abdenour-progdes/junctionx/main/src/assets/CINEMA1.1-100.jpg"
+    "https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/Th%C3%A9atre1%20copy%202-100.jpeg?raw=true"
   },
 {
-    url:"https://raw.githubusercontent.com/abdenour-progdes/junctionx/main/src/assets/cinema1.2-100.jpg" 
+    url:"https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/Th%C3%A9atre1-100.jpeg?raw=true" 
 }
 ];
 
