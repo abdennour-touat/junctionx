@@ -3,21 +3,19 @@ import {Link} from 'react-router-dom';
 import SimpleImageSlider from "react-simple-image-slider";
 import "../App.css";
 import backbutton from '../assets/backbutton.png'
-import image1 from '../assets/CINEMA1.1-100.jpg'
-import images2 from '../assets/cinema1.2-100.jpg'
-
+import image1 from '../assets/musique 1-100.jpeg'
+import image2 from '../assets/musique 2-100.jpeg'
 const images = [
   {
     url:
-   image1
+    image1
   },
 {
-  url:
-  images2
+    url:image2
 }
 ];
 
-const Cinema = () => {
+const Music = () => {
  return(
      <div>
          <Link to="/">
@@ -34,4 +32,4 @@ const Cinema = () => {
  ); 
 };
 
-export default Cinema;
+export default Music;

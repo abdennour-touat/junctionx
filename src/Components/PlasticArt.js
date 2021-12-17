@@ -3,29 +3,20 @@ import { Link } from "react-router-dom";
 import SimpleImageSlider from "react-simple-image-slider";
 import "../App.css";
 import backbutton from '../assets/backbutton.png'
-import {motion} from "framer-motion"
+
 const images = [
   {
-      url:
-    "https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/Th%C3%A9atre1%20copy%202-100.jpeg?raw=true"
+    url:
+    "https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/musique%201%20copy%202-100.jpeg?raw=true"
   },
 {
-    url:"https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/Th%C3%A9atre1-100.jpeg?raw=true" 
+    url:"https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/musique%201%20copy-100.jpeg?raw=true" 
 }
 ];
 
-const Theater = () => {
+const PlasticArt = () => {
  return(
-     <motion.div
-      initial={{
-        x:"-100%"
-      }}
-
-      animate={{
-        x:0
-      }}
-
-     >
+     <div>
           <Link to="/">
           <img className= " p-4 fixed top-0 left-0 z-20    h-16 w-16" src={backbutton} alt="backbutton"/>
          </Link>
@@ -36,8 +27,8 @@ const Theater = () => {
         showBullets={true}
         showNavs={true}
       />
-     </motion.div>
+     </div>
  ); 
 };
 
-export default Theater;
+export default PlasticArt;
