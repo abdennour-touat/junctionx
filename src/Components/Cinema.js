@@ -1,17 +1,20 @@
 import React from "react";
-import gucci from '../assets/cinéma backround-100.jpeg'
 
+import image1 from '../assets/CINEMA1.1-100.jpg'
+import image2 from '../assets/cinema1.2-100.jpg'
 import SimpleImageSlider from "react-simple-image-slider";
 import "../App.css";
 
 const images = [
   {
     url:
-    gucci
+   image1 
   },
+{
+    url: image2
+}
 ];
 
-console.log(gucci)
 const App = () => {
  return(
      <div>
