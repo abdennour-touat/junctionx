@@ -27,7 +27,9 @@ const Header = () => {
               </li>
             </div>
             <li className="em">
+              <Link to='/Emergency'>
               <button>Urgence</button>
+              </Link>
             </li>
           </ul>
           <div className="titre">

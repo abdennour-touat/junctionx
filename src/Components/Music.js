@@ -3,15 +3,14 @@ import {Link} from 'react-router-dom';
 import SimpleImageSlider from "react-simple-image-slider";
 import "../App.css";
 import backbutton from '../assets/backbutton.png'
-import image1 from '../assets/musique 1-100.jpeg'
-import image2 from '../assets/musique 2-100.jpeg'
+
 const images = [
   {
     url:
-    "https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/musique%201-100.jpeg?raw=true"
+    "https://raw.githubusercontent.com/abdenour-progdes/junctionx/main/src/assets/musicImage2.jpeg"
   },
 {
-    url:"https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/musique%201-100.jpeg?raw=true"
+    url:"https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/musicImage1.jpeg?raw=true"
 }
 ];
 

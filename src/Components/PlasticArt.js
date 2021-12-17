@@ -7,10 +7,10 @@ import backbutton from '../assets/backbutton.png'
 const images = [
   {
     url:
-    "https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/musique%202-100.jpeg?raw=true"
+    "https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/musique%201%20copy%202-100.jpeg?raw=true"
   },
 {
-    url:"https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/musique%202-100.jpeg?raw=true" 
+    url:"https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/musique%201%20copy-100.jpeg?raw=true" 
 }
 ];
 
