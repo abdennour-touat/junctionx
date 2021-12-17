@@ -8,10 +8,10 @@ import image2 from '../assets/musique 2-100.jpeg'
 const images = [
   {
     url:
-    image1
+    "https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/musique%201-100.jpeg?raw=true"
   },
 {
-    url:image2
+    url:"https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/musique%201-100.jpeg?raw=true"
 }
 ];
 

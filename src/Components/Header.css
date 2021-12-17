@@ -57,9 +57,14 @@
     border-radius: 5px;
   }
   .meteo-date {
+    width: 50%;
     display: flex;
     align-items: center;
     margin-left: 20px;
+  }
+  .img{
+    width : 70%;
+    /* height: 30%; */
   }
   .ba {
     border-right: solid 2px white;
@@ -82,8 +87,10 @@
   }
   */
   .titre img {
-    width: 80%;
-    margin: auto;
+    width: 70%;
+    height: 20%;
+    margin:  auto ;
+    margin-bottom: 20px;
   }
   
   .contenu {
@@ -183,14 +190,18 @@
     display: flex;
     background: rgba(255, 255, 255, 0.23);
     border-radius: 10px;
+    flex: 1 1 0px;
+
     /* margin-top: 50px; */
     /* padding-bottom: 3px; */
-     
     justify-content: center;
-    text-align: center;
     align-items: center;
-    margin: 20px 60px;
-    flex: 2 2 0px;
+    /* margin: 20px 60px; */
+    /* width: auto; */
+    /* margin: 20px; */
+    /* flex: 1 1 0px; */
+    padding: 20px;
+    margin:  50px;
     /* margin-right: 150px; */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.9px);
@@ -200,6 +211,7 @@
   .blanc img {
     width: 35px;
     height: 35px;
+    
     margin: 1.2rem;
     margin-left: 0%;
     /* margin-top: 0px;
@@ -207,12 +219,16 @@
     margin-left: 50px; */
   }
   .contenu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 60%;
     margin: auto;
-    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    flex-basis: 0%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* justify-content: center; */
+   
     /* margin-left: 400px; */
   }
   .fouter {

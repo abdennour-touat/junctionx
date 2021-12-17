@@ -17,16 +17,10 @@ const images = [
 const Theater = () => {
  return(
      <motion.div
-      initial={{
-        x:"-100%"
-      }}
-
-      animate={{
-        x:0
-      }}
+     
 
      >
-          <Link to="/">
+          <Link to="/" >
           <img className= " p-4 fixed top-0 left-0 z-20    h-16 w-16" src={backbutton} alt="backbutton"/>
          </Link>
          <SimpleImageSlider
