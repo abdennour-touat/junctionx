@@ -1,5 +1,7 @@
 import React from "react";
 
+import image1 from '../assets/CINEMA1.1-100.jpg'
+import image2 from '../assets/cinema1.2-100.jpg'
 import SimpleImageSlider from "react-simple-image-slider";
 import "../App.css";
 
@@ -13,7 +15,7 @@ const images = [
 }
 ];
 
-const Cinema = () => {
+const Theater = () => {
  return(
      <div>
          <SimpleImageSlider
@@ -27,4 +29,4 @@ const Cinema = () => {
  ); 
 };
 
-export default Cinema;
+export default Theater;
