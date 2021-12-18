@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
       <div className="header">
         <div className="logo"></div>
         <div className="nav-links" id="navLinks">
@@ -61,7 +60,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 export default Header;
