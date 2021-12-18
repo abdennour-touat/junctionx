@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/junctionx/static/css/main.f56ee002.css",
-    "main.js": "/junctionx/static/js/main.40b92abb.js",
+    "main.css": "/junctionx/static/css/main.789f3036.css",
+    "main.js": "/junctionx/static/js/main.4bf1a2c2.js",
     "static/media/emergency.png": "/junctionx/static/media/emergency.49f97bc0cf6e31accbd9.png",
     "static/media/final backround.png": "/junctionx/static/media/final backround.5d08083cca35fb7a8c70.png",
     "static/media/cinema1.2-100.jpg": "/junctionx/static/media/cinema1.2-100.adcae935100931628d30.jpg",
@@ -12,11 +12,11 @@
     "static/media/art plastique.png": "/junctionx/static/media/art plastique.9aabd689c4a0850a81ff.png",
     "static/media/cinema.png": "/junctionx/static/media/cinema.f87167a48cf335f20072.png",
     "index.html": "/junctionx/index.html",
-    "main.f56ee002.css.map": "/junctionx/static/css/main.f56ee002.css.map",
-    "main.40b92abb.js.map": "/junctionx/static/js/main.40b92abb.js.map"
+    "main.789f3036.css.map": "/junctionx/static/css/main.789f3036.css.map",
+    "main.4bf1a2c2.js.map": "/junctionx/static/js/main.4bf1a2c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f56ee002.css",
-    "static/js/main.40b92abb.js"
+    "static/css/main.789f3036.css",
+    "static/js/main.4bf1a2c2.js"
   ]
 }
