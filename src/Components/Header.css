@@ -142,7 +142,7 @@ li {
 }
 .contenu {
   margin: auto;
-  width: 80%;
+  width: 73%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
