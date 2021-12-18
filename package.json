@@ -1,10 +1,9 @@
 {
   "name": "junctionx",
-  "homepage": "https://github.com/abdenour-progdes/junctionx",
+  "homepage": "https://abdenour-progdes.github.io/junctionx/",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^6.1.1",
@@ -14,8 +13,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploye": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.6"
   }
