@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/abdenour-progdes/junctionx/static/css/main.5f77a163.css",
+    "main.js": "/abdenour-progdes/junctionx/static/js/main.4fc6f3f1.js",
+    "static/media/emergency.png": "/abdenour-progdes/junctionx/static/media/emergency.49f97bc0cf6e31accbd9.png",
+    "static/media/final backround.png": "/abdenour-progdes/junctionx/static/media/final backround.5d08083cca35fb7a8c70.png",
+    "static/media/cinema1.2-100.jpg": "/abdenour-progdes/junctionx/static/media/cinema1.2-100.adcae935100931628d30.jpg",
+    "static/media/CINEMA1.1-100.jpg": "/abdenour-progdes/junctionx/static/media/CINEMA1.1-100.f8d90cfa7ebf82e50008.jpg",
+    "static/media/weather.png": "/abdenour-progdes/junctionx/static/media/weather.47c5402a0bdba2334748.png",
+    "static/media/title 1_1.png": "/abdenour-progdes/junctionx/static/media/title 1_1.ffe2850b591641d8847c.png",
+    "static/media/théatre.png": "/abdenour-progdes/junctionx/static/media/théatre.b76bfc0bc9f6b6638efa.png",
+    "static/media/art plastique.png": "/abdenour-progdes/junctionx/static/media/art plastique.9aabd689c4a0850a81ff.png",
+    "static/media/cinema.png": "/abdenour-progdes/junctionx/static/media/cinema.f87167a48cf335f20072.png",
+    "index.html": "/abdenour-progdes/junctionx/index.html",
+    "main.5f77a163.css.map": "/abdenour-progdes/junctionx/static/css/main.5f77a163.css.map",
+    "main.4fc6f3f1.js.map": "/abdenour-progdes/junctionx/static/js/main.4fc6f3f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f77a163.css",
+    "static/js/main.4fc6f3f1.js"
+  ]
+}
