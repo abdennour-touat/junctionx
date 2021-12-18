@@ -7,10 +7,7 @@ import img3 from "../assets/art plastique.png";
 import img4 from "../assets/title 1_1.png";
 import { Link } from "react-router-dom";
 
-
-
 const Header = () => {
-
   return (
     <div>
       <div className="header">
@@ -28,8 +25,8 @@ const Header = () => {
               </li>
             </div>
             <li className="em">
-              <Link to='/Emergency'>
-              <button>Urgence</button>
+              <Link to="/Emergency">
+                <button>Urgence</button>
               </Link>
             </li>
           </ul>
@@ -37,31 +34,30 @@ const Header = () => {
             <img src={img4} alt="slogant"></img>
           </div>
           <div className="contenu">
-            
             <Link to="/Cinema" className="rouge card">
-                <img src={img} alt="hhh"></img>
-                <p>Cinema</p>
+              <img src={img} alt="hhh"></img>
+              <p>Cinema</p>
             </Link>
-             
-            <Link to="/Theater" className="bleu card">
-                <img src={img2} alt="photo2"></img><p>Theatre</p>
-            </Link>
-              
-           
-            <Link to="Music" className="vert card">
-              <img src={img1} alt="photo"></img><p>Musique</p>
 
+            <Link to="/Theater" className="bleu card">
+              <img src={img2} alt="photo2"></img>
+              <p>Theatre</p>
             </Link>
-            
-           <br />
+
+            <Link to="Music" className="vert card">
+              <img src={img1} alt="photo2"></img>
+              <p>Musique</p>
+            </Link>
+
             <br />
-            
+            <br />
+
             <Link to="/PlasticArt" className="blanc card">
-              <img src={img3} alt="photo3"></img><p>Art Plastique</p>
- 
+              <img src={img3} alt="photo3"></img>
+              <p>Art Plastique</p>
             </Link>
-            
-           {/* <div classNameName="fouter">HELLO</div> */}
+
+            {/* <div classNameName="fouter">HELLO</div> */}
           </div>
         </div>
       </div>

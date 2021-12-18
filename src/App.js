@@ -1,7 +1,6 @@
-import "./App.css";
 import Cinema from "./Components/Cinema";
 import Theater from "./Components/Theater";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import PlasticArt from "./Components/PlasticArt";
 import Music from "./Components/Music";
