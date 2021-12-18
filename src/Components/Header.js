@@ -53,7 +53,7 @@ const Header = () => {
 
             <Link to="/PlasticArt" className="blanc card">
               <img src={img3} alt="photo3"></img>
-              <p>Art Plastique</p>
+              <p className=" text-center ">Art Plastique</p>
             </Link>
 
             {/* <div classNameName="fouter">HELLO</div> */}
