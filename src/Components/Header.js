@@ -22,7 +22,8 @@ const Header = () => {
                 <h3>SATURDAY</h3>
                 <h6>19 December</h6>
               </li>
-              <li>
+              <li className="temp">
+                <h3 className=" font-bold  mt-9 ml-3  text-2xl">16°</h3>
                 <img className="img" src={WeatherImage} alt="weather Logo" />
               </li>
             </div>
@@ -32,7 +33,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-          <div className="titre">
+          <div className="titre mt-6">
             <img src={img4} alt="slogant"></img>
           </div>
           <div className="contenu">
@@ -43,20 +44,20 @@ const Header = () => {
             </Link>
              
             <Link to="/Theater" className="bleu card">
-                <img src={img2} alt="photo2"></img>Theatre
+                <img src={img2} alt="photo2"></img><p>Theatre</p>
             </Link>
               
            
             <Link to="Music" className="vert card">
-              <img src={img1} alt="photo"></img>Musique
- 
+              <img src={img1} alt="photo"></img><p>Musique</p>
+
             </Link>
             
            <br />
             <br />
             
             <Link to="/PlasticArt" className="blanc card">
-              <img src={img3} alt="photo3"></img>Art Plastique
+              <img src={img3} alt="photo3"></img><p>Art Plastique</p>
  
             </Link>
             

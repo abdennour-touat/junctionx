@@ -5,16 +5,26 @@ import "../App.css";
 import backbutton from '../assets/backbutton.png'
 import image1 from '../assets/CINEMA1.1-100.jpg'
 import images2 from '../assets/cinema1.2-100.jpg'
+import image3 from '../assets/algerian film 2.png'
+import image4 from '../assets/algerian film.png'
 
 const images = [
-  {
-    url:
-   image1
-  },
+ 
+
+
 {
   url:
+  'https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/algerian%20film.png?raw=true'
+}, {
+  url:
+ image1
+},{
+  url:
   images2
-}
+},{
+  url:
+  'https://github.com/abdenour-progdes/junctionx/blob/main/src/assets/algerian%20film%202.png?raw=true'
+},
 ];
 
 const Cinema = () => {
